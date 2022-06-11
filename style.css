@@ -1,0 +1,165 @@
+body{
+  margin: 0px;
+}
+/* Header Section */
+
+header{
+  background-color: #F9EBC8;
+}
+.navbar{
+  padding: 2%;
+}
+.navLink{
+  margin-left: 50px;
+}
+.nav-item{
+  font-size: 20px;
+  font-family: monospace;
+}
+.navLink:hover{
+  font-size: 23px;
+}
+.prashantLogo{
+  border-radius: 100%;
+  height: 50px;
+  border: solid black;
+}
+.headerText{
+  text-align: center;
+  padding: 5%;
+}
+h1{
+  font-size: 900%;
+  font-family: 'Tangerine', cursive;
+  font-weight: bold;
+  margin-top: 5%;
+}
+.headerTextPTag{
+  font-family: 'Oswald', sans-serif;
+  font-size: 240%;
+  margin-bottom: 5%;
+}
+.prashImg{
+  border-radius: 100%;
+  height: 200%;
+  border: solid black;
+  background-color: #FFC900;
+}
+
+/* About */
+#About{
+  text-align: center;
+  padding: 5%;
+}
+h2{
+  font-size: 240%;
+  margin-bottom: 5%;
+  font-family: monospace;
+}
+.aboutPTag{
+  width: 60%;
+  margin: auto;
+  font-size: 150%;
+  margin-bottom: 8%;
+  font-family: monospace;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: black;
+  border-width: 5px;
+  width: 30%;
+  margin: auto;
+  padding-bottom: 7%;
+}
+.card{
+  display: inline-block;
+  width: 18rem;
+  margin: 5%;
+  border-radius: 5%;
+}
+
+/* Body Section */
+#bodyMain{
+  text-align: center;
+  background-color: #FEFBE7;
+  padding: 5%;
+}
+
+/* Skills */
+#Skills{
+  padding-bottom: 10%;
+}
+.skillName{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 25px;
+  background-color: lightgrey;
+  font-weight: bold;
+  border: black solid;
+  font-family: monospace;
+}
+
+/* Projects */
+.tinderDogImg{
+  height: 20rem;
+  width: 13rem;
+}
+
+/* Footer */
+#footerText{
+  text-align: center;
+  padding: 5%;
+  background-color: #DAE5D0;
+}
+.contactMe{
+  margin-bottom: 20px;
+}
+.Iicon{
+  margin: 2%;
+  font-size: 25px;
+}
+.Iicon:hover{
+  color: darkgreen;
+}
+
+@media screen and (max-width:576px){
+  .navbar-nav{
+    text-align: center;
+  }
+  .navLink{
+    margin-left: 0px;
+  }
+  .headerText{
+    margin-top: 90px;
+  }
+  h1{
+    font-size: 450%;
+  }
+  .headerTextPTag{
+    font-size: 150%;
+    margin-bottom: 20%;
+  }
+  .aboutPTag{
+    width: 70%;
+    margin: auto;
+    font-size: 120%;
+    text-align: justify;
+    padding-bottom: 15%;
+  }
+  .card{
+    width: 15rem;
+  }
+  .skillName{
+    font-size: 15px;
+    border: none;
+  }
+  .tinderDogImg{
+    height: 15rem;
+    width: 8rem;
+  }
+  .Iicon{
+    font-size: 15px;
+  }
+  
+}
